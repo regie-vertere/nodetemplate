@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const getData = (req, res) => {
+function get(_req, res) {
     res.send('Hello from Regie');
-};
-exports.default = getData;
+}
+exports.get = get;
 //# sourceMappingURL=getData.js.map
